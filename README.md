@@ -1,3 +1,3 @@
 # Design-Patterns
 
-Tasks of Software Architechture and Design Patterns.
+Class Tasks of Software Architechture and Design Patterns.
