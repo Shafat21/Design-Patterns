@@ -26,8 +26,7 @@ class Multiplication extends Calculator {
 public class CalculatorApp {
     public static void main(String[] args) {
         Calculator additionCalculator = new Addition();
-        double resultAddition = additionCalculator.calculate(5, 3);
-        System.out.println("Addition result: " + resultAddition);
+        System.out.println("Addition result: " + additionCalculator.calculate(5, 3));
 
         Calculator subtractionCalculator = new Subtraction();
         System.out.println("Subtraction result: " + subtractionCalculator.calculate(10, 3));
