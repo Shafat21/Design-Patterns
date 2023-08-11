@@ -5,7 +5,7 @@ public class Toyota extends Vehicle
     // Constructor with parameters
     public Toyota(String name, String model) { 
         // Calling superclass constructor
-        super(name); 
+        super(); 
         this.model = model;
     }
 
@@ -16,6 +16,7 @@ public class Toyota extends Vehicle
 
     // Method with parameter
     public void accelerate(int speed) { 
+        String name;
         System.out.println(name + " is accelerating to " + speed + " km/h.");
     }
 }
