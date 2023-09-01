@@ -80,7 +80,7 @@ class VehicleBuilder
     }
 }
 
-class Main
+class MainClass
 {
     public static void main(String[] args) 
     {

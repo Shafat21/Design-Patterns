@@ -28,7 +28,7 @@ class CallNotification implements INotification {
     }
 }
 
-class Main {
+class MainClassTest {
     public static void main(String[] args) {
         MsgNotification msgNotification = new MsgNotification();
         CallNotification callNotification = new CallNotification();
