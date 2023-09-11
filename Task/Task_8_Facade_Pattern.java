@@ -54,7 +54,7 @@ class ComputerFacade {
     }
 }
 
-public class FacadePatternDemo {
+class FacadePatternDemo {
     public static void main(String[] args) {
         ComputerFacade computerFacade = new ComputerFacade();
 

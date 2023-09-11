@@ -36,7 +36,7 @@ class Toyota extends Vehicle
         System.out.println(Toyotaname + " is accelerating to " + speed + " km/h.");
     }
 }
-class Task2{
+class Task_2{
     public static void main(String[] args) 
     {
         // Object creation
