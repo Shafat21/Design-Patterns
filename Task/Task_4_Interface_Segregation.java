@@ -80,7 +80,7 @@ class VehicleBuilder
     }
 }
 
-class MainClass
+class InterfaceSegmentTest
 {
     public static void main(String[] args) 
     {

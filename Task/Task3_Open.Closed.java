@@ -23,7 +23,7 @@ class Multiplication extends Calculator {
     }
 }
 
-public class CalculatorApp {
+class CalculatorApp {
     public static void main(String[] args) {
         Calculator additionCalculator = new Addition();
         System.out.println("Addition result: " + additionCalculator.calculate(5, 3));
