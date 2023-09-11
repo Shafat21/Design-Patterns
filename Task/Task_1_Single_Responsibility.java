@@ -1,4 +1,4 @@
-public class Task_1_Single_Responsibility {
+class Task_1_Single_Responsibility {
     public static void main(String[] args) {
         EmailService emailService = new EmailService();
         emailService.sendEmail(null,null,null); 
