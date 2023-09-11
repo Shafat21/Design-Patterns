@@ -1,4 +1,4 @@
-interface Vehicle
+interface VehicleA
 {
     void setPrice(double price);
 }
@@ -14,7 +14,7 @@ interface Flyable
     void fly();
 }
 
-class Car implements Vehicle, Movable
+class Car implements VehicleA, Movable
 {
     double price;
 
@@ -35,7 +35,7 @@ class Car implements Vehicle, Movable
     }
 }
 
-class Aeroplane implements Vehicle, Movable, Flyable
+class Aeroplane implements VehicleA, Movable, Flyable
 {
     double price;
 
