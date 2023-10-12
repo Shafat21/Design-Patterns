@@ -1,0 +1,4 @@
+# Observer Pattern
+
+
+In a *stock market system*, traders subscribe to specific company stocks and receive real-time updates. Each stock market (e.g., **Company X**) manages stock prices. Traders, like **"Trader 1"** and "Trader 2,"**strong text** register to get stock price updates. When prices change, the stock market notifies all traders, enabling informed decisions. Traders can unsubscribe if they lose interest, ensuring timely responses to stock price changes.

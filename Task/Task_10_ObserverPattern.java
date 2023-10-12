@@ -1,7 +1,6 @@
 import java.util.ArrayList;
 import java.util.List;
 
-
 interface StockSubject {
     void registerStockTrader(StockTrader trader);
     void removeStockTrader(StockTrader trader);
@@ -42,11 +41,9 @@ class StockMarket implements StockSubject {
     }
 }
 
-
 interface StockTrader {
     void update(String stockSymbol, double stockPrice);
 }
-
 
 class IndividualStockTrader implements StockTrader {
     private String name;
@@ -61,27 +58,22 @@ class IndividualStockTrader implements StockTrader {
     }
 }
 
-public class ObserverPattern {
+class ObserverPattern {
     public static void main(String[] args) {
     
         StockMarket companyXStockMarket = new StockMarket("Company X", 100.0);
 
-    
         StockTrader trader1 = new IndividualStockTrader("Trader 1");
         StockTrader trader2 = new IndividualStockTrader("Trader 2");
 
-        
         companyXStockMarket.registerStockTrader(trader1);
         companyXStockMarket.registerStockTrader(trader2);
 
-    
         companyXStockMarket.updateStockPrice(105.0);
         companyXStockMarket.updateStockPrice(98.5);
 
-    
         companyXStockMarket.removeStockTrader(trader2);
 
-    
         companyXStockMarket.updateStockPrice(110.5);
     }
 }
