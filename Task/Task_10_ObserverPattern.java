@@ -60,7 +60,6 @@ class IndividualStockTrader implements StockTrader {
 
 class ObserverPattern {
     public static void main(String[] args) {
-    
         StockMarket companyXStockMarket = new StockMarket("Company X", 100.0);
 
         StockTrader trader1 = new IndividualStockTrader("Trader 1");
