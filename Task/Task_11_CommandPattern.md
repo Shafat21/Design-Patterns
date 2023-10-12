@@ -1,0 +1,3 @@
+# Command Pattern
+
+> In a simple remote control system, there's a light that can be turned on and off. The remote control has buttons programmed with commands to control the light. When a button is pressed, it triggers the execution of the corresponding command. For instance, pressing button 0 turns the **light on**, and pressing button 1 turns it off. This setup allows users to conveniently **control** the **light** using the remote control without having to directly interact with the **light switch**.
